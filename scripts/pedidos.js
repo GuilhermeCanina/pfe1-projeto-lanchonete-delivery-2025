@@ -1,7 +1,7 @@
   
   
 function voltar() {
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
   }
   
   function carregarPedidosFinalizados() {
