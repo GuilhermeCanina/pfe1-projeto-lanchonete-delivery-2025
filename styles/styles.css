@@ -1,19 +1,18 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 :root {
-    --c1: #333333;
-    --c2: #FFCC00;
-    --c3: #FF0000;
-    --c4: #CCCCCC;
-    --c5: #F5F5F5;
+    --c1: #1E1E1E;
+    --c2: #3498DB;
+    --c3: #F39C12;
+    --c4: #ECF0F1;
+    --c5: #FFFFFF;
     --t1: rgba(0, 0, 0, 0.8);
-    --t2: rgba(255, 255, 255, 0.8);
+    --t2: rgba(255, 255, 255, 0.9);
 }
 
 body {
@@ -33,6 +32,7 @@ header {
     background-color: var(--c2);
     padding: 15px;
     box-shadow: 0 2px 5px var(--c1);
+    border-radius: 8px;
 }
 
 header button {
@@ -41,6 +41,8 @@ header button {
 }
 
 header h1 {
-    color: var(--c1);
-    font-size: 2rem;
+    color: var(--c5);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
